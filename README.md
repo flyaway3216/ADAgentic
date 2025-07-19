@@ -11,7 +11,7 @@ Who knows how far we'll get...
 
 This is an active project in early-stage development. Core architecture and tooling are being finalized. Contributions and feedback welcome.
 
-This project is a secure, modular, locally-run AI coding framework designed to safely generate, test, document, and extend software projects using large language models. It leverages multi-agent planning (OpenHands), long-context local models (DevStral), secure web access via crawling, and Retrieval-Augmented Generation (RAG) to support structured and context-aware development.
+This project is a secure, modular, locally-run AI coding framework designed to safely generate, test, document, and extend software projects using large language models. It leverages multi-agent planning (currently OpenHands), long-context local models (currently DevStral, but swapable too), secure web access via crawling, and Retrieval-Augmented Generation (RAG) to support structured and context-aware development.
 
 The system is organized into **three operational zones**, each with dedicated components. Each zone operates within its **own Docker container**, providing clear boundaries between stages of the pipeline. This improves isolation, debuggability, and resource management.
 
