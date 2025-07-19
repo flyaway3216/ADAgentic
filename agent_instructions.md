@@ -1,6 +1,8 @@
-# Agent Assistant Setup Instructions
+# ADAgentic Setup Instructions to be made for each Project
 
 This file instructs AI coding assistants on the documentation files they should automatically generate for this secure AI coder agent framework project.
+
+******* massive thanks for the initial .md template set out by https://github.com/coleam00/context-engineering-intro ******** 
 
 ## Required Documentation Files to Generate
 
@@ -8,7 +10,7 @@ The agent assistant should create the following documentation structure with min
 
 ### Core Project Documentation
 - **CLAUDE.md** - Global rules and project-specific guidelines for AI assistants
-- **TESTING.md** - Test protocols, patterns, coverage requirements, and validation frameworks
+- **TESTING.md** - full set of written testing programs
 - **CODE_STYLE.md** - Coding standards, formatting rules, and language conventions
 - **ARCHITECTURE.md** - Code structure, organization rules, and system design principles
 - **ROADMAP.md** - Project milestones, feature priorities, and development timeline
@@ -119,7 +121,8 @@ After generating all documentation:
 2. Generate initial PRP using the comprehensive documentation context  
 3. Execute development workflow following incremental patterns
 4. Update Architecture Decision Records for significant choices
-5. Validate all implementations against success criteria templates
+5. Run all testing files
+6. Validate all implementations against success criteria templates
 
 ---
 
