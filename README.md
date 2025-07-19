@@ -17,7 +17,7 @@ The system is organized into **three operational zones**, each with dedicated co
 
 Work-flow pipeline
 
-A System that can take a prompt disuccion through to full project completion. The agent use the reasoning capability of the coding llm to discuss and refine the idea with the user so it has enough info to be able to make all the [agent_instructions.md](agent_instructions.md) files needed for the PRP to be uploaded to RAG.
+A System that can take a prompt disuccion through to full project completion. The aimis for the agent use the reasoning capability of the coding llm to discuss and refine the idea with the user so it has enough info to be able to make all the [agent_instructions.md](agent_instructions.md) files needed for the PRP to be uploaded to RAG. 
 
   From this the PRP can me made and from that the code components can be made and tested. From the prompt discussion phase the project can be set up as design- and test-driven. The Instructions.md can mean that if different models are switched in due benefit from specific coding strengths, they will keep to the same coding standards rather than default to their separate trainings, which will keep the code coherent. 
 
