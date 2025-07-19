@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+
+**pycache**/
+\*.py\[cod]
+\*\$py.class
+
+# Virtual environment
+
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+
+build/
+dist/
+\*.egg-info/
+
+# Logs
+
+\*.log
+logs/
+
+# Jupyter Notebooks
+
+.ipynb\_checkpoints
+
+# VSCode settings
+
+.vscode/
+
+# System files
+
+.DS\_Store
+Thumbs.db
+
+# Python metadata
+
+debug.log
+coverage/
+htmlcov/
+
+# Local vector DB artifacts
+
+shared\_chroma/
+
+# Secrets or local config
+
+*.env
+.env.*
+
+# Docker data
+
+\*.pid
+\*.sock
+\*.db
+\*.sqlite
+
+# Test artifacts
+
+tests/output/
+
+# API keys, if misused (optional protection)
+
+openai\_key.txt
+huggingface\_key.txt
