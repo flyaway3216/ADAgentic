@@ -15,7 +15,18 @@ This project is a secure, modular, locally-run AI coding framework designed to s
 
 The system is organized into **three operational zones**, each with dedicated components. Each zone operates within its **own Docker container**, providing clear boundaries between stages of the pipeline. This improves isolation, debuggability, and resource management.
 
-The agent can use the LLM's reasoning to determine when more information is needed and query for additional context or documentation automatically. Thanks to the system's modularity, components such as DevStral and OpenHands can be **swapped for improved models or extended versions** in the future as advancements occur. Future directions include incorporating MCP capabilities and enabling system self-maintenance and editing—where feasible and safe—as tools and frameworks continue to improve.
+Work-flow pipeline
+
+A System that can take a prompt disuccion through to full project completion. The agent use the reasoning capability of the coding llm to discuss and refine the idea with the user so it has enough info to be able to make all the [agent_instructions.md](agent_instructions.md) files needed for the PRP to be uploaded to RAG.
+
+  From this the PRP can me made and from that the code components can be made and tested. From the prompt discussion phase the project can be set up as design- and test-driven. The Instructions.md can mean that if different models are switched in due benefit from specific coding strengths, they will keep to the same coding standards rather than default to their separate trainings, which will keep the code coherent. 
+
+  At any part of the process the agent can use the coder llm to reason what is needed and what to prompt the crawl4AI with to get the output from RAG/WEB for the part that is needed during the making of the PRP or code writing. The agent and LLM can retrieve this chunked data from RAG/crawl4AI at any point in the process, and being specific means  it uses efficient token count to get this info. And as Devstral has 128K context all info can hold all this needed info for writing each small component of the component list however large and complex the overall modular system might be for each project.
+
+  The system can securely access the internet for things it doesn’t know having first checked the current context window, then RAG. If answer isn’t found it can pass the request to the crawl4AI in different docker. Info is only returned once it has been checked and sanitised. Examples of this would be for coding examples to have in the .md before writing the code. Making sure this is clean is needed to stop prompt injection issues and malicious/bad code being held in the .md files of the RAG in the third docker.
+
+  Thanks to the system's modularity, components such as DevStral and OpenHands can be **swapped for improved models or extended versions** in the future as advancements occur. Future directions include incorporating MCP capabilities and enabling system self-maintenance and editing—where feasible and safe—as tools and frameworks continue to improve.
+
 
 ---
 
