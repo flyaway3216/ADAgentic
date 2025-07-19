@@ -4,7 +4,7 @@ Thank you for your interest in contributing to a ADAgentic! I welcome contributi
 
 ## 🎯 Our Direction
 
-Before contributing, please review our ADAgentic(README.md)  and roadmap to understand the project's goals. We're happy to accept contributions that:
+Before contributing, please review the [README](README.md) and [roadmap](ROADMAP.md) to understand the project's goals. I'm happy to accept contributions that:
 
 - **Align with our current direction** as outlined in our documentation
 - **Propose changes to our direction** - but please discuss these in advance so we can understand the reasoning and ensure it fits our vision
@@ -21,7 +21,7 @@ Since this project focuses on secure AI agent frameworks, security consideration
 
 ### Private Security Reporting
 If you discover a security vulnerability, please **do not** open a public issue. Instead:
-- Email us at [security-email] (replace with actual email)
+- Email me at QuantumFrogPro@proton.me 
 - Include a detailed description of the vulnerability
 - We'll acknowledge receipt within 48 hours and work with you on disclosure
 
@@ -107,13 +107,13 @@ For larger contributions:
 - Project maintainers have final say on contributions
 - We're open to adding trusted contributors as maintainers as the project grows
 - Major direction changes require discussion and consensus
-- We aim to respond to contributions within [timeframe - suggest 1 week]
+- We aim to respond to contributions within 1 - week
 
 ## ❓ Questions?
 
 - Check existing issues and discussions first
 - Open a new discussion for general questions
-- For urgent matters, contact [contact-method]
+- For urgent matters, contact QuantumFrogPro@proton.me
 
 ---
 
