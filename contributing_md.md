@@ -1,10 +1,10 @@
-# Contributing to [Project Name]
+# Contributing to ADAgentic.
 
-Thank you for your interest in contributing to our secure AI coder agent framework! We welcome contributions that align with our mission of creating secure, capable software to help AI coding agents.
+Thank you for your interest in contributing to a ADAgentic! I welcome contributions that align with  mission of creating secure, capable software to help AI coding agents.
 
 ## 🎯 Our Direction
 
-Before contributing, please review our [README](README.md) and roadmap to understand the project's goals. We're happy to accept contributions that:
+Before contributing, please review our ADAgentic(README.md)  and roadmap to understand the project's goals. We're happy to accept contributions that:
 
 - **Align with our current direction** as outlined in our documentation
 - **Propose changes to our direction** - but please discuss these in advance so we can understand the reasoning and ensure it fits our vision
