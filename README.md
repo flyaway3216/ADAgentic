@@ -3,6 +3,7 @@
 **ADAgentic** — *ADding ever-evolving Agentic functionality.*
 
 **ADA**: A tribute to Ada Lovelace, often regarded as the first programmer.
+
 **Agentic**: Describes the growing autonomy of this system.
 
 **ADAgentic** — continuing the movement towards secure, safe, capable context-engineered programming.
